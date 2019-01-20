@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/*typerwritter area*/
+.writter{
+    background-image: url('../img/b3.jpeg');
+    height: 400px;
+   
+}
+#maq{
+    width:300px;
+    margin-left: 700px;
+    margin-top:-180px;
+    height: 160px;
+    opacity: 0;
+}
+#log{
+    color:#4169E1;
+    font-size:40px;
+    margin-left: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+#intro{
+    color:white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:30px;
+    margin-left:320px;
+}
+/*end typerwritter area*/
+
+/*programmers of typerwritter area */
+
+#ada{
+    
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    margin-left:400px;
+    color:bisque;
+}
+#turing{
+    color:bisque;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    margin-left:400px;
+}
+#linus{
+    color:white;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    margin-left:400px;
+}#guido{
+    color:bisque;
+   
+    font-size: 15px;
+    margin-left:400px;
+    font-family: 'Righteous', cursive;
+}
+#jobs{
+    color:bisque;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    margin-left:400px;
+}
+#bill{
+    color:bisque;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    margin-left:400px;
+}
+#john{
+    color:bisque;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    margin-left:400px;
+}
+#bjarne{
+    color:bisque;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    margin-left:600px;
+    margin-top:-154px;
+}
+#kay{
+    color:bisque;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    margin-left:600px;
+    margin-top:1px;
+}
+#stellman{
+    color:bisque;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    margin-left:600px;
+    margin-top:2px;
+}
+#lee{
+    color:bisque;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    margin-left:600px;
+    margin-top:3px;
+}
+#keller{
+    color:bisque;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    margin-left:600px;
+    margin-top:4px;
+}
+#jean{
+    color:bisque;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    margin-left:600px;
+    margin-top:5px;
+}
+/*end programmers of typerwritter area */

@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/*brain configure*/
+
+.img-brain{
+    margin-top:100px;
+    margin-left: 200px;
+    position: relative;
+}
+.txt-brain{
+    font-size:35px;
+    color:white;
+    font-family: 'Acme', sans-serif;
+   margin-left:500px;
+   transition: 3s;
+   opacity: 0;
+}
+#s1{
+    margin-top:300px;
+    margin-left:-800px;
+    position: absolute;
+    background-color: blue;
+    opacity: 0;
+    transition: 2s;
+}
+#s2{
+    margin-top:200px;
+    margin-left:-700px;
+    position: absolute;
+    background-color: brown;
+    transition: 2s;
+   opacity: 0;
+}
+#s3{
+    position: absolute;
+    background-color:darkkhaki;
+    margin-top:150px;
+    margin-left:-590px;
+    transition: 2s;
+   opacity: 0;
+}
+#s4{
+    position: absolute;
+    background-color: gray;
+    margin-top:110px;
+    margin-left: -450px;
+    transition: 2s;
+   opacity: 0;
+}
+#s5{
+    position: absolute;
+    margin-top:150px;
+    margin-left:-350px;
+    background-color: #323232;
+    transition: 2s;
+   opacity: 0;
+}
+#s6{
+    position: absolute;
+    margin-top:200px;
+    margin-left: -250px;
+    background-color: blueviolet;
+    transition: 2s;
+   opacity: 0;
+}
+#s7{
+    position: absolute;
+    margin-top:300px;
+    margin-left: -150px;
+    background-color: darkorange;
+    transition: 2s;
+   opacity: 0;
+}
+#s8{
+    position: absolute;
+    margin-top:370px;
+    margin-left: -100px;
+    transition: 2s;
+   opacity: 0;
+}
+

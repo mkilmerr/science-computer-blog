@@ -1,0 +1,334 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Thasadith');
+/*txt main */
+
+#title-main{
+    font-size: 40px;
+    color:white;
+    font-family: 'Architects Daughter', cursive;
+   text-align: center;
+   transition: 3s;
+}
+#txt-main{
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    transition: 4s;
+    font-family: 'Share Tech', sans-serif;
+}
+#ada-txt{
+   text-align: center;
+    color:black;
+    font-size: 15px;
+    margin-top:140px;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+    position: relative;
+}
+.ada{
+    background-color: white;
+    width: 1566px;
+    height: 250px;
+    opacity: 0;
+    transition: 3s;
+    transform: translate3d(-100px,0,0);
+    margin-top:50px;
+    
+}
+#txt-hello{
+    color: white;
+    font-size:30px;
+    margin-left: 530px;
+    margin-top:150px;
+    height: 5px;
+    font-family: 'Staatliches', cursive;
+
+}
+#img-ada{
+    margin-left:-200px;
+    margin-top:-10px;
+   opacity: 0;
+    position: absolute;
+    transition:4s;
+}
+.lang{
+    font-size: 20px;
+    color:white;
+    text-align: center;
+}
+#img-py{
+    width: 40px;
+    height: 40px;
+}
+#img-c{
+    width: 40px;
+    height: 40px;
+    margin-left:450px;
+    margin-top:120px;
+    
+   
+}
+#img-ruby{
+    width: 40px;
+    height: 40px;
+   
+    margin-left:1000px;
+    margin-top:50px;
+}
+#img-php{
+    width: 60px;
+    height: 40px;
+    margin-top:70px;
+    margin-left:40px;
+}
+#img-java{
+    width: 60px;
+    height: 40px;
+    margin-left:900px;
+}
+#img-js{
+    width: 60px;
+    height: 60px;
+    margin-left:300px;
+}
+#img-scala{
+    width: 90px;
+    height: 60px;
+   
+    margin-left:700px;
+    margin-top:70px;
+}
+.img-lang{
+    opacity: 0;
+    transition: 2s;
+    position: absolute;
+}
+#img-kotlin{
+    width: 90px;
+    height: 60px;
+    margin-left: 500px;
+}
+#img-swift{
+    width: 90px;
+    height: 90px;
+    margin-left:1200px;
+    margin-top:60px;
+}
+#img-haskell{
+    width: 90px;
+    height: 90px;
+    margin-left: 170px;
+    margin-top:90px;
+}
+#img-lua{
+    width: 90px;
+    height: 90px;
+    margin-left:850px;
+    margin-top:80px;
+}
+#txt-python{
+    font-family: 'Permanent Marker', cursive;
+    margin-left:350px;
+    opacity: 0;
+    transition: 1s;
+    font-size:30px;
+    position: relative;
+}
+#txt-php{
+    font-family: 'Permanent Marker', cursive;
+    
+    opacity: 0;
+    transition: 1s;
+    font-size:30px;
+    margin-top:-250px;
+    margin-left:350px;
+    position: relative;
+}
+#txt-haskell{
+    opacity: 0;
+    font-family: 'Permanent Marker', cursive;
+    transition: 1s;
+    font-size:30px;
+    margin-left:350px;
+    margin-top:-280px;
+    position: relative;
+}
+#txt-js{
+    opacity: 0;
+    font-family: 'Permanent Marker', cursive;
+    transition: 1s;
+    font-size:30px;
+    margin-left: 350px;
+    margin-top:-240px;
+    position: relative;
+}
+#txt-c{
+    opacity: 0;
+    font-family: 'Permanent Marker', cursive;
+    transition: 1s;
+    font-size:20px;
+    margin-left:450px;
+    margin-top:-140px;
+    position: relative;
+}
+#txt-kotlin{
+    opacity: 0;
+    font-family: 'Permanent Marker', cursive;
+    transition: 1s;
+    font-size:20px;
+    margin-top:-300px;
+    margin-left:450px;
+}
+#txt-scala{
+    opacity: 0;
+    font-family: 'Permanent Marker', cursive;
+    transition: 1s;
+    font-size:20px;
+    margin-top:-200px;
+    margin-left:400px;
+}
+#txt-lua{
+    opacity: 0;
+    font-family: 'Permanent Marker', cursive;
+    transition: 1s;
+    font-size:20px;
+    margin-top:-300px;
+    margin-left:450px;
+}
+#txt-java{
+    opacity: 0;
+    font-family: 'Permanent Marker', cursive;
+    transition: 1s;
+    font-size:20px;
+    margin-top:-200px;
+    margin-left:450px;
+}
+#txt-ruby{
+    opacity: 0;
+    font-family: 'Permanent Marker', cursive;
+    transition: 1s;
+    font-size:20px;
+    margin-top:-200px;
+    margin-left:450px;
+}
+#txt-swift{
+    opacity: 0;
+    font-family: 'Permanent Marker', cursive;
+    transition: 1s;
+    font-size:20px;
+    margin-top:-200px;
+    margin-left:450px;
+}
+#title-tipos{
+    font-family: 'Architects Daughter', cursive;
+  margin-left:530px;
+    font-size: 40px;
+    color:white;
+    transition: 3s;
+}
+#txt-tipos{
+    color: white;
+    text-align: center;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 20px;
+
+}
+#txt-baixo{
+    color:black;
+    font-size:30px;
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    font-family: 'Thasadith', sans-serif;
+}
+#title-baixo{
+    font-size: 40px;
+    color:white;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+#baixo-nivel{
+    opacity: 0;
+}
+#img-fortran{
+    margin-left:700px;
+    margin-top:-400px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+#img-filter{
+    margin-left:500px;
+    margin-top:-130px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+#img-assembly{
+    margin-left:1100px;
+    margin-top:-130px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+#img-vhdl{
+    margin-left:1100px;
+    margin-top:-300px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+#img-cobol{
+    margin-left:800px;
+    margin-top:-100px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+#title-alto{
+    font-size: 40px;
+    color:white;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+#txt-alto{
+    width: 300px;
+    color:black;
+    font-size:30px;
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    font-family: 'Thasadith', sans-serif;
+}
+#alto-nivel{
+    opacity: 0;
+}
+#alto-java{
+    width: 100px;
+    height: 100px;
+    margin-left:800px;
+    margin-top:-200px;
+    position: absolute;
+}
+#alto-python{
+    width: 100px;
+    height: 100px;
+    margin-left:1100px;
+    margin-top:-400px;
+    position: absolute;
+}
+#alto-ruby{
+    width: 100px;
+    height: 100px;
+    margin-left:800px;
+    margin-top:-400px;
+    position: absolute;
+}
+#alto-php{
+    width: 100px;
+    height: 100px;
+    margin-left:1100px;
+    margin-top:-200px;
+    position: absolute;
+}

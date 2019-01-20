@@ -1,0 +1,429 @@
+@charset "UTF-8";
+/*import google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Anton|ZCOOL+QingKe+HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Acme|Anton|ZCOOL+QingKe+HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Charm');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+/*end import google fonts*/
+
+/*nav bar styles*/
+
+.nav-wrapper{
+    padding: 20px;
+   
+}
+nav{
+    height: 100px;
+    position: relative;
+   background-color:white;
+   
+}
+/*end nav bar styles*/
+/*txt navbar*/
+
+#txt-brand{
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.item-nav{
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*imgs icons*/
+#tap{
+   width: 30px;
+   height: 30px;
+    margin-left:-700px;
+    margin-top:10px;
+   
+    position: absolute;
+}
+#start{
+    width: 30px;
+   height: 30px;
+    margin-left:-1000px;
+    margin-top:10px;
+   
+    position: absolute;
+}
+/*images carousel*/
+
+.img-carousel{
+    height: 400px;
+    width: 100%;
+}
+.image{
+    position: relative;
+    
+} 
+/*end images carousel*/
+
+body{
+    background-image: url('../img/b3.jpeg');
+    
+  
+}
+
+/*configure elements in carousel*/
+h2 { 
+    position: absolute; 
+    top: 180px; 
+    left: 100px;
+    width: 350px;
+    height: 55px;
+   background: #4169E1;
+   padding: 10px;
+   opacity: 0.8;
+ }
+ h2:hover{
+     opacity: 1;
+     background: black;
+ }
+ .txt-carousel{
+     position: absolute;
+     top: 250px; 
+    left: 100px;
+    width: 350px;
+    height: 55px;
+   background: black;
+   padding: 10px;
+   opacity: 0.8;
+ }
+ /*end configure elements in carousel*/
+
+ /*ifce info site*/
+ .info-ifce{
+     background: whitesmoke;
+     color: #4169E1;   
+     height: 100px;
+     padding: 5px;
+ }
+ .txt-ifce{
+     font-size:30px;
+     text-align: center;
+ }
+#btn-ifce{
+    background: white;
+    color: #4169E1;
+    left: 1000px;
+    top: -50px;
+}
+#btn-ifce:hover{
+    background:  #4169E1;
+    color : white;
+    transition: 1s;
+}
+/*end ifce info site*/
+
+/*text bill gates*/
+.img-bill{
+    margin-left: 120px;
+    height: 400px;
+    margin-top:60px;
+    width: 550px;
+    transition: 1s;
+    position: relative;
+    
+}
+.img-bill:hover{
+    opacity: 0.9;
+    background: #4169E1;
+    transition:2s;
+    
+}
+.legend-bill{
+    position: absolute;
+   top:870px;
+   opacity: 0;
+   left: 500px;;
+    color:white;
+    transform: translate3d(-100px,0,0);
+}
+.txt-bloco{
+    width: 550px;
+    height: 400px;
+    background: white;
+    margin-left: 120px;
+    margin-top:-30px;
+}
+.title-bill{
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+}
+.txt-micro{
+  text-align: justify;
+  padding: 20px;
+  margin-top: -60px;
+}
+/*end txt bill gates*/
+
+/*lateral*/
+.lateral{
+    background: white;
+    width: 400px;
+    margin-left: 900px;
+  padding: 10px;
+  margin-top: -804px;
+  height: 1000px;
+  text-align: center;
+  float: left;
+ 
+}
+
+.t1-lateral{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+   font-size: 20px;
+   color: #4169E1;
+}
+.img-lateral{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+/*end lateral*/
+
+/*future text*/
+.img-future{
+    margin-left: 120px;
+    height: 400px;
+    margin-top: -140px;
+    width: 550px;
+    transition: 1s;
+    position: relative;
+}
+.txt-future{
+    width: 550px;
+    height: 400px;
+    background: white;
+    margin-left: 120px;
+    margin-top:-30px;
+    position: absolute;
+}
+.title-future{
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 0;
+    transform: translate3d(0,-10px,0);
+    color:#4169E1;
+}
+.txt-profi{
+    text-align: justify;
+    padding: 20px;
+    margin-top:-40px;
+}
+/*end txt future*/
+
+/*celebrities*/
+.adam{
+    margin-left: 700px;
+    width: 150px;
+    margin-top:100px;
+}
+#img-adam{
+    width: 150px;
+    height: 150px;
+}
+.txt-adam{
+    font-size: 10px;
+    font-family: 'Acme', sans-serif;
+    text-align: justify;
+}
+
+.steve{
+    margin-left: 680px;
+    width: 150px;
+    margin-top:-300px;
+    position: absolute;
+}
+.txt-steve{
+    font-size: 10px;
+    font-family: 'Acme', sans-serif;
+}
+.lee{
+    margin-left: 1140px;
+    width: 150px;
+    margin-top:-300px;
+    position: absolute;
+}
+#img-lee{
+    height: 150px;
+    position: absolute;
+}
+#img-alan{
+    height: 150px;
+   
+}
+.alan-turing{
+    height: 150px;
+    position: absolute;
+    margin-left: 990px;
+    margin-top:-290px;
+}
+.txt-alan{
+    text-align: justify;
+    font-size: 10px;
+    font-family: 'Acme', sans-serif;
+}
+#img-gates{
+    height: 150px;
+    width: 150px;
+}
+.bill-gates{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    margin-left: 1040px;
+    margin-top:-140px;
+}
+.txt-lee{
+    text-align: justify;
+    font-size: 10px;
+    font-family: 'Acme', sans-serif;
+   
+    
+}
+.margaret{
+    width: 150px;
+    margin-left: 1200px;
+    margin-top:-100px;
+    position: absolute;
+}
+.txt-marga{
+    font-size: 10px;
+    font-family: 'Acme', sans-serif;
+}
+.linux{
+    margin-left: 850px;
+    width: 150px;
+    margin-top:-300px;
+    position: absolute;
+   
+}
+#img-linux{
+    height: 150px;
+}
+.guido{
+    width: 150px;
+    margin-left: 860px;
+    margin-top:-150px;
+    position: absolute;
+}
+.txt-guido{
+    font-size: 10px;
+    font-family: 'Acme', sans-serif;
+}
+.txt-icons{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* end celebrities/*
+
+/*lateral utilities*/
+.lateral-uteis{
+    background: white;
+    width: 400px;
+    margin-left: 900px;
+  padding: 10px;
+  margin-top: -900px;
+  text-align: center;
+  float: left;
+}
+#txt-utilidades{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+   font-size: 20px;
+   color: #4169E1;
+}
+.settings{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    
+}
+.txtutil{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    
+}
+/* end lateral utilities */
+
+/*data science txt*/
+
+.img-data{
+    margin-left: 120px;
+    height: 400px;
+    margin-top:60px;
+    width: 550px;
+    transition: 1s;
+    position: relative;
+}
+.title-data{
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+   margin-left: -500px;
+   margin-top: -10px;
+   opacity: 0;
+   transform: translate3d(-100px,0,0);
+   transition:1s;
+   color: #4169E1;
+   
+   position: relative;
+}
+.img-data{
+    height: 400px;
+    margin-top:200px;
+    width: 550px;
+    position: relative; 
+}
+data{
+    height: 400px;
+    width: 550px;
+    padding: 10px;
+   
+}
+.txt-data{
+    width: 550px;
+    height: 400px;
+    background: white;
+    margin-left: 120px;
+    margin-top:-50px;
+    position: absolute;
+    text-align: justify;
+    padding: 10px;
+}
+#readmore{
+    margin-left: 600px;
+    margin-top:250px;
+}
+/*end data science txt*/
+
+/*configure cards*/
+
+.c1{
+    width: 600px;
+    margin-left: 1050px;
+    margin-top: -900px;
+}
+.c2{
+    width: 600px;
+    margin-left: 700px;
+}
+.c3{
+    margin-left: 1050px;
+    width: 600px;
+}
+/*end configure cards*/

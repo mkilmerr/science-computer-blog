@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/*import google fonts */
+
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Quantico');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Seaweed+Script');
+/*end import google fonts /*
+
+/*typewritter area*/
+
+.item-typer{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*end typewritter area*/
+
+/*txt alan turing*/
+
+.frase-alan{
+    background:white;
+    width: 1353px;
+    height: 140px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    color:#4169E1;
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: 4s;
+    box-shadow:2px 2px 4px  black;
+}
+.quote{
+    margin-top:-14px;
+    margin-left: 600px;
+    font-size: 14px;
+    color:black;
+}
+.img-alan{
+    width: 100px;
+    margin-left: -1200px;
+    
+}
+.txt-alan-historia{
+    margin-top:-90px;
+}
+/*end txt alan turing*/
+
+/*evolution of computing elements*/
+
+.abaco{
+    width: 300px;
+    height: 300px;
+    margin-left: 300px;
+    
+}
+.imgs{
+    opacity: 0;
+    transition: 1s;
+    
+}
+#title-his{
+    color: white;
+    margin-left: 300px;
+    font-size:70px;
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: 2s;
+    
+}
+.regua{
+    width: 900px;
+    height: 600px;
+   
+    margin-left: 200px;
+    margin-top:-350px;
+}
+.test{
+    width: 100px;
+    height: 50px;
+    margin-left: 500px;
+    margin-top: -300px;
+}
+.img{
+    margin-top:300px;
+    margin-left: -220px;
+}
+.pascal{
+    margin-left: 100px;
+    margin-top:-370px;
+    width: 1050px;
+    height: 1000px;
+}
+#pascal{
+    height: 210px;
+}
+.container{
+    opacity: 0;
+    transition: 1s;
+    
+}
+.ada{
+    width: 500px;
+    height: 500px;
+    margin-left: -200px;
+    margin-top:-200px;
+}
+.primeiro{
+    margin-left:-870px;
+    width: 900px;
+    height: 600px;
+}
+/*end evolution of computing elements */
+
+/* important companies area */
+
+#slider1{
+    margin-top:-40px;
+    margin-left:-500px;
+    widows: 200px;
+}
+.empresas{
+    font-size: 60px;
+    color:white;
+    margin-top:-800px;
+    margin-left:-140px;
+    padding: 15px;
+   
+}
+
+#slider2{
+    margin-left:250px;
+    margin-top:-440px;
+}
+#slider3{
+    margin-left:-500px;
+}
+#slider4{
+    margin-left:250px;
+    margin-top:-440px;
+}
+/* end important companies area */ 
+/*fonts and colors slides*/
+#t1-apple{
+    font-family: 'Acme', sans-serif;
+}

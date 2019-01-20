@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+#title-curiosidades{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    transform: translate3d(-100px,0,0);
+    transition: 2s;
+}
+#barra{
+    height: 200px;
+}
+.row{
+    opacity: 0;
+}
+#quantum{
+    height: 210px;
+}
+#img-lee{
+    height: 200px;
+}
+#txt-card{
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#title-card{
+    font-family: 'Righteous', cursive;
+    font-size:20px;
+}
+#img-search{
+    margin-top:90px;
+    margin-left: 210px;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+}
+#img-wifi{
+    position: absolute;
+    margin-left:800px;
+    margin-top:90px;
+    opacity: 0;
+    transition: 1s;
+}
+#img-music{
+    position: absolute;
+    margin-left:1100px;
+    margin-top:30px;
+    opacity: 0;
+    transition: 1s;
+}
+#img-barra{
+    position: absolute;
+    margin-left:900px;
+    margin-top:90px;
+    opacity: 0;
+    transition: 1s;
+}
+#img-settings{
+    position: absolute;
+    margin-left:400px;
+    margin-top:30px;
+    opacity: 0;
+    transition: 1s;
+}
